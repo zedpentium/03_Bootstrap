@@ -5,22 +5,126 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BootStrap 5 Webpage Eric R</title>
-    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
-b5-n
-</a>
-<div class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}">
-    b5-col
+<div class="divwrapper"> <!-- start divwrapper-->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary border-bottom item-a">
+    <a class="navbar-brand text-info" href="#"><img src="pictures/jrhlogobig.jpg" alt="logo"></a> 
+
+    <!-- Hamburger menu -->
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div style="position:relative;" class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="float-right">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item active">
+          <a class="nav-link text-uppercase" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="findushere.html">Find us here</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="carouseleric" class="item-b carousel slide" data-bs-ride="carousel"> <!-- starttag for carouselcode-->
+<div class="carousel-indicators container">
+    <button type="button" data-bs-target="#carouseleric" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouseleric" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouseleric" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouseleric" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouseleric" data-bs-slide-to="4" aria-label="Slide 5"></button>
 </div>
 
+<div class="carousel-inner"> <!-- inner code-->
+<div class="carousel-item active">
+    <img src="pictures/ali-choubin.jpg" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+    <img src="pictures/gaspar-zaldo.jpg" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+    <img src="pictures/jellyfish.jpg" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+    <img src="pictures/kir-simakov.jpg" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+    <img src="pictures/max-okhrimenko.jpg" class="d-block w-100" alt="...">
+</div>
+</div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#carouseleric" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouseleric" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+</button>
+
+</div> <!-- endtag carouselcode -->
+
+
+<div class="item-c">
+
+marketing here
+
+</div>
+
+<div class="item-d">
+    <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Menu 1</a></li>
+        <li><a href="#">Menu 2</a></li>
+        <li><a href="#">Menu 3</a></li>
+      </ul>
+
+</div> <!-- item-d -->
+
+<div class="item-e">
+    <div class="rowof3">
+    <div class="columns3">
+        <article><h6>Artikel 1 single line</h6></article>
+    </div>
+    <div class="columns3">
+        <article><h6>Artikel 2 single line</h6></article>
+    </div>
+    <div class="columns3">
+        <article><h6>Artikel 3 single line</h6></article>
+    </div>
+    </div>  
+</div>
+
+<div class="item-f">contactform</div>
+
+<div class="item-g">lowerimage</div>
+
+
+<footer class="item-h">
+    <span>&#64;Eric "Zeddan" R <a href="#">Goto top of page</a></span>
+</footer>
+
+
+</div> <!-- end divwrapper-->
 
 
 
 
-
-
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,115 @@
+body{
+    position: relative;
+    width: 1024px;
+    height: 1400px;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.item-a {
+    grid-area: navbararea;
+    position: fixed;
+    height: 56px;
+    width: 1024px;
+    border: 1px solid black;
+}
+
+
+.item-b {
+   grid-area: imagecarousel;
+   height: 400px;
+   width: 1024px;
+   border: 1px solid black;
+}
+ 
+
+.item-c {
+  grid-area: marketarea;
+  border: 1px solid black;
+}
+.item-d {
+  grid-area: sidebar;
+  border: 1px solid black;
+}
+.item-e {
+  grid-area: contentarea;
+  border: 1px solid black;
+}
+.item-f {
+  grid-area: contactform;
+  border: 1px solid black;
+}
+.item-g {
+  grid-area: lowerimage;
+  border: 1px solid black;
+}
+.item-h {
+  grid-area: footerarea;
+  border: 1px solid black;
+  line-height: 45px;
+  text-align: center;
+}
+
+.col {
+    line-height: 100px;
+    border: 1px solid black;
+}
+
+.divwrapper {
+    height: 1200px;
+    color: black;
+    display: grid;
+    grid-template-columns: 341px 341px 342px;
+    grid-template-rows: 56px 400px 50px 550px 300px 50px;
+    grid-template-areas: 
+    'navbararea navbararea navbararea'
+    'imagecarousel imagecarousel imagecarousel'
+    'marketarea marketarea marketarea'
+    'sidebar contentarea contentarea'
+    'contactform contactform lowerimage'
+    'footerarea footerarea footerarea';
+}
+
+.divwrapper div{
+    text-align: center;
+}
+
+.navbar-brand img {
+    width: 330px;
+} 
+
+
+.columns3 {
+    float: left;
+    width: 33.33%;
+}
+  
+  /* Clear floats after the columns */
+.rowof3:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    max-height: 400px
+}
+
+.carousel-indicators img {
+
+    max-height: 398px;
+    max-width: 1024px;
+}
+
+    
+    img {
+    
+    max-height: 398px;
+    max-width: 1024px;
+    
+    }
+    
+  
