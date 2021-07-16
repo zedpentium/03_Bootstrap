@@ -14,30 +14,21 @@
 
 <div class="divwrapperfindushere"> <!-- start divwrapper -->
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary border-bottom item-a">
-    <a class="navbar-brand text-info" href="#"><img src="pictures/jrhlogobig.jpg" alt="logo"></a> 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary border-bottom item-a">
+    <a class="navbar-brand text-info" id="menulogo" href="#"><img src="pictures/jrhlogobig.jpg" alt="logo"></a> 
 
-    <!-- Hamburger menu -->
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div style="position:relative;" class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="float-right">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item">
-          <a class="nav-link text-uppercase" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-uppercase" href="findushere.html">Find us here</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link text-uppercase" href="aboutus.html">Contact</a>
-          </li>
+    <div class="dropdown" id="navmenuright">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Menu
+      </button>
+        <!--  <div class="float-right"> -->
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item text-uppercase" href="index.html">Home</a></li>
+          <li><a class="dropdown-item text-uppercase" href="findushere.html">Find us here</a></li>
+          <li><a class="dropdown-item text-uppercase" href="aboutus.html">Contact</a></li>
         </ul>
         </div>
-    </div>
+
 </nav>
 
 

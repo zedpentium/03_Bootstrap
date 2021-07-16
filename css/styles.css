@@ -28,7 +28,11 @@ body{
   box-sizing: border-box;
 }
 
-
+#menulogo {
+  height: 56px;
+  margin-right: auto;
+  padding: 0px;
+}
 
 
 
@@ -157,14 +161,13 @@ body{
 }
 
 .container {
-    max-height: 400px
+    max-height: 398px;
+    max-width: 1024px;
 }
 
 .carousel-indicators {
 
-    max-height: 398px;
-    max-width: 1024px;
-    z-index: -999;
+  left: -150px;
 }
 
 
@@ -179,5 +182,9 @@ body{
     
     max-height: 398px;
     max-width: 1024px;
-    
     }
+    
+
+div#navmenuright {
+margin-left: auto;
+}
