@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BootStrap 5 Webpage Eric R</title>
+    <!-- using theme "Slate" by bootwatch, and its "bootstrap.min.css", backed up original bootstrap.min.css to "bootstrap.min.css_org."
+    here is the theme - https://bootswatch.com/slate/    -->
     <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/styles.css">
 </head>
@@ -83,13 +85,12 @@ marketing here
 </div>
 
 <div class="item-d">
-    <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Menu 1</a></li>
-        <li><a href="#">Menu 2</a></li>
-        <li><a href="#">Menu 3</a></li>
+    <ul class="nav nav-pills nav-stacked flex-column navbar-expand-lg navbar-dark bg-primary border-bottom">
+        <li class="active"><a href="index.html">Home Content</a></li>
+        <li><a href="#">Content 1</a></li>
+        <li><a href="#">Content 2</a></li>
+        <li><a href="#">Content 3</a></li>
       </ul>
-
 </div> <!-- item-d -->
 
 <div class="item-e">
@@ -106,18 +107,64 @@ marketing here
     </div>  
 </div>
 
-<div class="item-f">contactform</div>
+<div class="item-f">
+
+
+    <form class="row g-3 needs-validation" novalidate>
+      <div class="col-md-3">
+        <label for="validationCustom01" class="form-label">Your Name</label>
+        <input type="text" class="form-control" id="validationCustom01" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-5">
+        <label for="validationCustomEmail" class="form-label">E-Mail</label>
+        <div class="input-group">
+          <input type="email" class="form-control" id="validationCustomEmail" required>
+          <div class="invalid-feedback">
+            Please write a e-mail.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label for="validationCustom03" class="form-label">Phone Number</label>
+        <input type="tel" class="form-control" id="validationCustom03" required>
+        <div class="invalid-feedback">
+          Please write phone number
+        </div>
+      </div>
+      <div class="col-md-11">
+        <label for="validationCustom05" class="form-message">Your Message</label>
+        <input type="text" class="form-control" id="validationCustom05" required>
+        <div class="invalid-feedback">
+          Please provide a message.
+        </div>
+      </div>
+      <div class="col-md-5">
+        <button class="btn btn-primary btn-danger" type="reset">Reset form</button>
+      </div>
+      <div class="col-md-6">
+        <button class="btn btn-primary btn-success" type="submit">Submit form</button>
+      </div>
+    </form>
+
+
+
+</div>
 
 <div class="item-g">lowerimage</div>
 
 
-<footer class="item-h">
-    <span>&#64;Eric "Zeddan" R <a href="#">Goto top of page</a></span>
-</footer>
+
 
 
 </div> <!-- end divwrapper-->
 
+
+<footer class="item-h">
+    <span>&#64;Eric "Zeddan" Rönnhult&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-primary" href="#">Back To Top</a></span>
+</footer>
 
 
 
