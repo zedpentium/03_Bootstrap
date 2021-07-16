@@ -8,6 +8,30 @@ body{
     box-sizing: border-box;
 }
 
+#aboutus {
+  position: relative;
+  width: 1024px;
+  height: 800px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#findushere {
+  position: relative;
+  width: 1024px;
+  height: 800px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+
+
 
 .item-a {
     grid-area: navbararea;
@@ -84,6 +108,36 @@ body{
 .divwrapper div{
     text-align: center;
 }
+
+.divwrappercontact {
+  height: 305px;
+  color: black;
+  background-color: #3a3f44;
+  display: grid;
+  grid-template-columns: 141px 541px 342px;
+  grid-template-rows: 56px 100px 150px 50px;
+  grid-template-areas: 
+  'navbararea navbararea navbararea'
+  'marketarea marketarea marketarea'
+  'contentarea contentarea contentarea'
+  'footerarea footerarea footerarea';
+}
+
+.divwrapperfindushere {
+  height: 753px;
+  color: black;
+  background-color: #3a3f44;
+  display: grid;
+  grid-template-columns: 141px 541px 342px;
+  grid-template-rows: 56px 100px 600px 50px;
+  grid-template-areas: 
+  'navbararea navbararea navbararea'
+  'marketarea marketarea marketarea'
+  'contentarea contentarea contentarea'
+  'footerarea footerarea footerarea';
+}
+
+
 
 .navbar-brand img {
     width: 330px;
